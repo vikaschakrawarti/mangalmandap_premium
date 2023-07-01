@@ -1,0 +1,48 @@
+[05-May-2023 12:25:27 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 12:25:27 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_mobilecode in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 161
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_mobile in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 161
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 178
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_bday in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 194
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 211
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 216
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_religion in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 274
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_religion in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 300
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined index: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 626
+[05-May-2023 12:33:34 Asia/Kolkata] PHP Notice:  Undefined variable: reg_country in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 1072
+[05-May-2023 13:04:17 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 13:04:17 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_mobilecode in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 161
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_mobile in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 161
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 178
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_bday in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 194
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 211
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 216
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_religion in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 274
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_religion in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 300
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined index: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 626
+[05-May-2023 13:13:45 Asia/Kolkata] PHP Notice:  Undefined variable: reg_country in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 1072
+[05-May-2023 13:48:31 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 13:48:31 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[05-May-2023 14:59:27 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 14:59:27 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_mobilecode in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 161
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_mobile in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 161
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 178
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_bday in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 194
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 211
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 216
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_religion in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 274
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_religion in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 300
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined index: reg_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 626
+[05-May-2023 15:03:52 Asia/Kolkata] PHP Notice:  Undefined variable: reg_country in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 1072
+[05-May-2023 17:02:18 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[05-May-2023 17:02:18 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100
+[11-Jun-2023 23:10:18 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Firstname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 84
+[11-Jun-2023 23:10:18 Asia/Kolkata] PHP Notice:  Undefined index: Enter Your Lastname in /home2/mangaztt/public_html/premium.mangalmandap.com/web-services/register/reg-1.php on line 100

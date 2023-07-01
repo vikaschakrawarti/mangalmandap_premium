@@ -1,0 +1,1 @@
+[05-May-2023 13:18:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/edit/my-view-pref-2.php on line 204

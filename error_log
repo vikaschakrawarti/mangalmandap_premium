@@ -1,0 +1,662 @@
+[05-May-2023 06:07:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[05-May-2023 06:07:32 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[05-May-2023 11:37:32 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[05-May-2023 11:37:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[05-May-2023 06:17:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[05-May-2023 06:17:14 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[05-May-2023 11:47:14 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[05-May-2023 11:47:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[05-May-2023 12:13:32 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[05-May-2023 12:13:32 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[05-May-2023 12:16:31 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[05-May-2023 12:16:31 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[05-May-2023 12:17:38 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[05-May-2023 12:17:38 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[05-May-2023 12:18:06 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[05-May-2023 12:18:06 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[05-May-2023 12:32:46 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[05-May-2023 12:32:48 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php(183): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 12:33:22 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[05-May-2023 12:33:24 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php(183): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 13:08:44 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[05-May-2023 13:08:46 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php(183): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 13:14:06 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:14:06 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:14:54 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:14:54 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:14:59 Asia/Kolkata] PHP Notice:  Undefined index: Manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/member-profile.php on line 1652
+[05-May-2023 13:15:17 Asia/Kolkata] PHP Notice:  Undefined index: Manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/member-profile.php on line 1652
+[05-May-2023 13:16:57 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/sentMessages.php on line 113
+[05-May-2023 13:17:06 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:17:06 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:17:13 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:17:13 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:17:31 Asia/Kolkata] PHP Notice:  Undefined index: Manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/member-profile.php on line 1652
+[05-May-2023 13:18:15 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:18:15 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:18:18 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:18:18 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:18:18 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:18:18 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:18:18 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/view-profile.php on line 297
+[05-May-2023 13:19:01 Asia/Kolkata] PHP Notice:  Undefined index: Manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/member-profile.php on line 1652
+[05-May-2023 13:20:12 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 13:20:12 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 14:50:13 Asia/Jakarta] PHP Notice:  Undefined index: Remove Shortlist in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/main-result.php on line 176
+[05-May-2023 13:21:00 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/sentMessages.php on line 113
+[05-May-2023 13:21:53 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:21:53 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:22:17 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/express-interest-side-pan.php on line 6
+[05-May-2023 13:22:30 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/exp-accept.php on line 13
+[05-May-2023 13:22:30 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/exp-accept.php on line 17
+[05-May-2023 13:23:01 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:23:01 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:24:27 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:24:27 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:24:27 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:24:27 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:24:27 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/view-profile.php on line 297
+[05-May-2023 13:26:11 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:11 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:11 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:11 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:11 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/view-profile.php on line 297
+[05-May-2023 13:26:24 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:24 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:24 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:24 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:24 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/view-profile.php on line 297
+[05-May-2023 13:26:38 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/my-photo.php on line 379
+[05-May-2023 13:26:38 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/my-photo.php on line 522
+[05-May-2023 13:26:45 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:45 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:45 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:45 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:45 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/view-profile.php on line 297
+[05-May-2023 13:26:47 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/my-photo.php on line 379
+[05-May-2023 13:26:48 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/my-photo.php on line 522
+[05-May-2023 13:26:50 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:50 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:50 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:50 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:26:50 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/view-profile.php on line 297
+[05-May-2023 13:26:58 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_link' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 8
+[05-May-2023 13:26:58 Asia/Kolkata] PHP Notice:  Trying to get property 'adv_img' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-1.php on line 10
+[05-May-2023 13:27:05 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/express-interest-side-pan.php on line 6
+[05-May-2023 13:27:11 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/my-photo.php on line 379
+[05-May-2023 13:27:11 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/my-photo.php on line 522
+[05-May-2023 13:27:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[05-May-2023 13:27:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 13:27:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 13:28:49 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 247
+[05-May-2023 13:28:49 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 251
+[05-May-2023 14:58:54 Asia/Jakarta] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 247
+[05-May-2023 14:58:54 Asia/Jakarta] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 251
+[05-May-2023 13:28:58 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 247
+[05-May-2023 13:28:58 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 251
+[05-May-2023 14:59:14 Asia/Jakarta] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 247
+[05-May-2023 14:59:14 Asia/Jakarta] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 251
+[05-May-2023 14:59:22 Asia/Jakarta] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 247
+[05-May-2023 14:59:22 Asia/Jakarta] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 251
+[05-May-2023 13:29:26 Asia/Kolkata] PHP Warning:  Creating default object from empty value in /home2/mangaztt/public_html/premium.mangalmandap.com/custom-matches.php on line 218
+[05-May-2023 13:29:26 Asia/Kolkata] PHP Warning:  Creating default object from empty value in /home2/mangaztt/public_html/premium.mangalmandap.com/custom-matches.php on line 233
+[05-May-2023 13:29:26 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 247
+[05-May-2023 13:29:26 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/dbmanupulate1.php on line 251
+[05-May-2023 13:32:42 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:32:42 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:34:54 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 13:35:19 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:35:19 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:38:02 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 13:38:07 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 13:38:11 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 13:38:11 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 13:38:40 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 13:52:09 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[05-May-2023 13:52:11 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php(183): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 13:58:40 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 14:00:06 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 14:00:07 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 14:00:31 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 14:00:31 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 14:01:02 Asia/Kolkata] PHP Notice:  Undefined index: Manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/member-profile.php on line 1652
+[05-May-2023 14:02:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[05-May-2023 14:02:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 14:02:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 15:32:02 Asia/Jakarta] PHP Notice:  Undefined index: Remove Shortlist in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/main-result.php on line 176
+[05-May-2023 14:04:11 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 14:04:11 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 14:10:09 Asia/Kolkata] PHP Notice:  Undefined index: Manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/member-profile.php on line 1652
+[05-May-2023 14:11:27 Asia/Kolkata] PHP Notice:  Undefined index: Manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/member-profile.php on line 1652
+[05-May-2023 14:12:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[05-May-2023 14:12:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 14:12:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 15:42:14 Asia/Jakarta] PHP Notice:  Undefined index: Remove Shortlist in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/main-result.php on line 176
+[05-May-2023 14:13:10 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 14:13:10 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 14:14:25 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 14:14:25 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 14:14:42 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 14:16:16 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[05-May-2023 14:16:16 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[05-May-2023 14:16:17 Asia/Kolkata] PHP Notice:  Undefined index: gender123 in /home2/mangaztt/public_html/premium.mangalmandap.com/search_result.php on line 328
+[05-May-2023 14:16:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[05-May-2023 14:16:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 14:16:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 14:16:53 Asia/Kolkata] PHP Notice:  Undefined index: gender123 in /home2/mangaztt/public_html/premium.mangalmandap.com/search_result.php on line 328
+[05-May-2023 14:16:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[05-May-2023 14:16:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 14:16:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 15:02:18 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[05-May-2023 15:02:20 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php(183): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 15:03:46 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[05-May-2023 15:03:49 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php(183): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 15:04:43 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/resend_email_verify.php(53): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 15:05:28 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '<!doctype html>...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/resend_email_verify.php(53): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 15:06:58 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php on line 13
+[05-May-2023 15:06:58 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php on line 13
+[05-May-2023 15:07:00 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '\r\n             ...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php(118): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 15:08:48 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php on line 13
+[05-May-2023 15:08:48 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php on line 13
+[05-May-2023 15:08:51 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '\r\n             ...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php(118): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 15:09:06 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php on line 13
+[05-May-2023 15:09:06 Asia/Kolkata] PHP Notice:  Undefined variable: email in /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php on line 13
+[05-May-2023 15:09:08 Asia/Kolkata] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ma...', '\r\n             ...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/mangaztt/public_html/premium.mangalmandap.com/forgot-password.php(118): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2076
+[05-May-2023 15:35:42 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 15:35:57 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 15:50:18 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[05-May-2023 15:54:08 Asia/Kolkata] PHP Warning:  Undefined variable $my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[05-May-2023 15:54:08 Asia/Kolkata] PHP Warning:  Undefined variable $my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[05-May-2023 15:54:09 Asia/Kolkata] PHP Warning:  Undefined array key "gender123" in /home2/mangaztt/public_html/premium.mangalmandap.com/search_result.php on line 328
+[05-May-2023 15:54:09 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[05-May-2023 15:54:09 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 15:54:09 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 16:04:05 Asia/Kolkata] PHP Warning:  Undefined array key "gender123" in /home2/mangaztt/public_html/premium.mangalmandap.com/search_result.php on line 328
+[05-May-2023 16:04:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[05-May-2023 16:04:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 16:04:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 17:04:58 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[05-May-2023 17:06:48 Asia/Kolkata] PHP Notice:  Undefined index: pfromage in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 36
+[05-May-2023 17:06:51 Asia/Kolkata] PHP Notice:  Undefined index: pfromage in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 36
+[05-May-2023 17:07:08 Asia/Kolkata] PHP Notice:  Undefined index: pfromage in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 36
+[05-May-2023 17:07:14 Asia/Kolkata] PHP Notice:  Undefined index: pfromage in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 36
+[05-May-2023 17:16:52 Asia/Kolkata] PHP Notice:  Undefined index: pfromage in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 36
+[05-May-2023 17:16:55 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/aadhaar_upload.php on line 113
+[05-May-2023 17:16:55 Asia/Kolkata] PHP Notice:  Undefined variable: youProfile in /home2/mangaztt/public_html/premium.mangalmandap.com/thumbnailjs.php on line 29
+[05-May-2023 17:17:26 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/aadhaar_upload.php on line 113
+[05-May-2023 17:17:26 Asia/Kolkata] PHP Notice:  Undefined variable: youProfile in /home2/mangaztt/public_html/premium.mangalmandap.com/thumbnailjs.php on line 29
+[05-May-2023 17:17:27 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/aadhaar_upload.php on line 113
+[05-May-2023 17:17:27 Asia/Kolkata] PHP Notice:  Undefined variable: youProfile in /home2/mangaztt/public_html/premium.mangalmandap.com/thumbnailjs.php on line 29
+[05-May-2023 17:18:08 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 17:18:08 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 17:20:25 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[05-May-2023 17:20:25 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 17:20:59 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[05-May-2023 17:20:59 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[05-May-2023 18:51:00 Asia/Jakarta] PHP Notice:  Undefined index: Remove Shortlist in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/main-result.php on line 176
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 11
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo1' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 10
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo2' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 11
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo3' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 12
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo4' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 13
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo5' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 14
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo6' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 15
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'firstname' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 18
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'lastname' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 19
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'm_status' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 20
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'm_tongue' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 21
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'birthplace' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 22
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'birthtime' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 23
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'birthdate' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 24
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'profileby' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 25
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'profile_text' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 29
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'hobby' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 30
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'edu_detail' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 33
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'income' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 34
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'occupation' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 35
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'emp_in' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 36
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'state_id' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 40
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'city' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 41
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'country_id' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 42
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'mobile' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 43
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'religion' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 49
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 50
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'horoscope' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 52
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'manglik' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 53
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'star' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 55
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'moonsign' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 56
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_expect' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 59
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'looking_for' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 60
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_frm_age' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 61
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_to_age' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 62
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_religion' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 63
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 64
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_height' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 65
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_height_to' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 66
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_complexation' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 67
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_edu' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 68
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_country_living' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 69
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_rasi' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 70
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_mtongue' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 71
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'father_occupation' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 77
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'mother_occupation' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 78
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'no_of_sisters' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 79
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'family_type' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 81
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'family_status' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 82
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'family_value' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 83
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'no_of_brothers' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 84
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'no_marri_brother' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 85
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'no_marri_sister' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 86
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'gender' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 88
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'height' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 91
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'weight' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 92
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'physicalStatus' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 93
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'complexion' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 94
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'bodytype' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 95
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'diet' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 97
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'drink' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 98
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'smoke' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 99
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo1_approve' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 124
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'photo1' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 127
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: gender123 in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 130
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'username' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 130
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'username' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 144
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 167
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 168
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'will_to_mary_caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 169
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'gender' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 176
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 179
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 179
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 179
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 179
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 179
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 179
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/left_panel.php on line 16
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/left_panel.php on line 28
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/parts/left_panel.php on line 151
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 291
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 292
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'will_to_mary_caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 293
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'gender' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 300
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 303
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 303
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 303
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 303
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 331
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'part_caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 332
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'will_to_mary_caste' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 333
+[05-May-2023 19:13:59 Asia/Kolkata] PHP Notice:  Trying to get property 'gender' of non-object in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 340
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-3.php(3): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/footer.php(6): include('/home2/mangaztt...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(773): include('/home2/mangaztt...')
+#3 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-3.php(3): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/footer.php(6): include('/home2/mangaztt...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(773): include('/home2/mangaztt...')
+#3 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-3.php(3): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/footer.php(6): include('/home2/mangaztt...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(773): include('/home2/mangaztt...')
+#3 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-3.php(3): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/footer.php(6): include('/home2/mangaztt...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(773): include('/home2/mangaztt...')
+#3 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/level-3.php(3): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/parts/footer.php(6): include('/home2/mangaztt...')
+#2 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(773): include('/home2/mangaztt...')
+#3 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/class/Config.class.php(34): DatabaseConn->__construct()
+#1 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(6): Config->__construct()
+#2 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 23
+[21-May-2023 16:45:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php:25
+Stack trace:
+#0 /home2/mangaztt/public_html/premium.mangalmandap.com/index.php(4): DatabaseConn->__construct()
+#1 {main}
+  thrown in /home2/mangaztt/public_html/premium.mangalmandap.com/databaseConn.php on line 25
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User mangaztt_premium already has more than 'max_user_connections' active connections in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 8
+[21-May-2023 11:15:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home2/mangaztt/public_html/premium.mangalmandap.com/dbConf.php on line 9
+[03-Jun-2023 04:13:40 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[03-Jun-2023 04:13:40 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[03-Jun-2023 04:13:55 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[03-Jun-2023 04:13:55 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[03-Jun-2023 04:14:22 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[03-Jun-2023 04:14:22 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[03-Jun-2023 04:18:49 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[03-Jun-2023 04:18:49 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[03-Jun-2023 04:20:29 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[03-Jun-2023 04:20:29 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[03-Jun-2023 04:26:44 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[03-Jun-2023 04:27:09 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[03-Jun-2023 04:29:57 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[03-Jun-2023 04:29:57 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
+[03-Jun-2023 04:29:57 Asia/Kolkata] PHP Notice:  Undefined index: gender123 in /home2/mangaztt/public_html/premium.mangalmandap.com/search_result.php on line 328
+[03-Jun-2023 04:29:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[03-Jun-2023 04:29:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[03-Jun-2023 04:29:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[03-Jun-2023 04:30:39 Asia/Kolkata] PHP Notice:  Undefined index: gender123 in /home2/mangaztt/public_html/premium.mangalmandap.com/search_result.php on line 328
+[03-Jun-2023 04:30:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 517
+[03-Jun-2023 04:30:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 893
+[03-Jun-2023 04:30:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home2/mangaztt/public_html/premium.mangalmandap.com/refine-search.php on line 938
+[03-Jun-2023 04:41:33 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[03-Jun-2023 04:41:41 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/success-story.php on line 448
+[11-Jun-2023 23:14:03 Asia/Kolkata] PHP Notice:  Undefined variable: part_manglik in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 95
+[11-Jun-2023 23:14:17 Asia/Kolkata] PHP Notice:  Undefined index: pfromage in /home2/mangaztt/public_html/premium.mangalmandap.com/register-photo-upload.php on line 36
+[11-Jun-2023 23:14:19 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/aadhaar_upload.php on line 113
+[11-Jun-2023 23:14:19 Asia/Kolkata] PHP Notice:  Undefined variable: youProfile in /home2/mangaztt/public_html/premium.mangalmandap.com/thumbnailjs.php on line 29
+[11-Jun-2023 23:14:26 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/aadhaar_upload.php on line 113
+[11-Jun-2023 23:14:26 Asia/Kolkata] PHP Notice:  Undefined variable: youProfile in /home2/mangaztt/public_html/premium.mangalmandap.com/thumbnailjs.php on line 29
+[11-Jun-2023 23:14:29 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/aadhaar_upload.php on line 113
+[11-Jun-2023 23:14:29 Asia/Kolkata] PHP Notice:  Undefined variable: youProfile in /home2/mangaztt/public_html/premium.mangalmandap.com/thumbnailjs.php on line 29
+[11-Jun-2023 23:18:16 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home2/mangaztt/public_html/premium.mangalmandap.com/lib/progressbar.php on line 208
+[11-Jun-2023 23:18:16 Asia/Kolkata] PHP Notice:  Undefined index:  in /home2/mangaztt/public_html/premium.mangalmandap.com/myHome.php on line 270
+[11-Jun-2023 23:48:59 Asia/Kolkata] PHP Warning:  file(https://www.bulksmsplans.com/api/send_sms?api_id=mangalmandap2016%40gmail.com&amp;api_password=4177c413ae0f193f5f0295c8636438471544597882&amp;sms_type=Transactional&amp;sms_encoding=text&amp;sender=BLKSMS&amp;number=+918770745851&amp;messageYou recently requested to reset your password for your mangal mandap account. Your OTP has been generated for login is 1234. MMMTRI&amp;template_id=40967): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home2/mangaztt/public_html/premium.mangalmandap.com/login-with-otp.php on line 33
+[11-Jun-2023 23:49:14 Asia/Kolkata] PHP Warning:  file(https://www.bulksmsplans.com/api/send_sms?api_id=mangalmandap2016%40gmail.com&amp;api_password=4177c413ae0f193f5f0295c8636438471544597882&amp;sms_type=Transactional&amp;sms_encoding=text&amp;sender=BLKSMS&amp;number=+918770745851&amp;messageYou recently requested to reset your password for your mangal mandap account. Your OTP has been generated for login is 1234. MMMTRI&amp;template_id=40967): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home2/mangaztt/public_html/premium.mangalmandap.com/login-with-otp.php on line 53
+[12-Jun-2023 00:04:02 Asia/Kolkata] PHP Warning:  file(https://www.bulksmsplans.com/api/send_sms?api_id=mangalmandap2016%40gmail.com&amp;api_password=4177c413ae0f193f5f0295c8636438471544597882&amp;sms_type=Transactional&amp;sms_encoding=text&amp;sender=BLKSMS&amp;number=+918770745851&amp;messageYou recently requested to reset your password for your mangal mandap account. Your OTP has been generated for login is 1234. MMMTRI&amp;template_id=40967): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home2/mangaztt/public_html/premium.mangalmandap.com/login-with-otp.php on line 53
+[12-Jun-2023 00:04:11 Asia/Kolkata] PHP Warning:  file(https://www.bulksmsplans.com/api/send_sms?api_id=mangalmandap2016%40gmail.com&amp;api_password=4177c413ae0f193f5f0295c8636438471544597882&amp;sms_type=Transactional&amp;sms_encoding=text&amp;sender=BLKSMS&amp;number=+918770745851&amp;messageYou recently requested to reset your password for your mangal mandap account. Your OTP has been generated for login is 1234. MMMTRI&amp;template_id=40967): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home2/mangaztt/public_html/premium.mangalmandap.com/login-with-otp.php on line 33
+[12-Jun-2023 00:04:52 Asia/Kolkata] PHP Warning:  file(https://www.bulksmsplans.com/api/send_sms?api_id=mangalmandap2016%40gmail.com&amp;api_password=4177c413ae0f193f5f0295c8636438471544597882&amp;sms_type=Transactional&amp;sms_encoding=text&amp;sender=BLKSMS&amp;number=+918770745851&amp;messageYou recently requested to reset your password for your mangal mandap account. Your OTP has been generated for login is 1234. MMMTRI&amp;template_id=40967): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home2/mangaztt/public_html/premium.mangalmandap.com/login-with-otp.php on line 53
+[25-Jun-2023 15:46:55 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 744
+[25-Jun-2023 15:46:55 Asia/Kolkata] PHP Notice:  Undefined variable: my_gender in /home2/mangaztt/public_html/premium.mangalmandap.com/search.php on line 1011
