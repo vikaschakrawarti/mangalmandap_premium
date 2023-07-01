@@ -1,0 +1,53 @@
+<div class="gt-interest-rec">
+    <div class="col-lg-4 col-lg-offset-0 col-xxl-3 col-xxl-offset-0 col-xl-offset-0 col-xl-3 col-sm-10 col-sm-offset-3 col-xs-10 col-xs-offset-3 col-md-6 col-md-offset-0">
+        <?php include('../parts/exp-result-photo.php');?>
+    </div>
+    <div class="col-xxl-13 col-xl-13 col-xs-16 col-sm-16 col-md-10 col-lg-12">
+        <div class="row">
+            <div class="col-xxl-8 col-xl-8 col-xs-16 col-lg-8 col-md-16 ">
+                <a href="" class="gt-text-black">
+                    <h4><?php echo $Row->username; ?> <small class="text-muted">(<?php echo $Row->matri_id; ?>)</small></h4>
+                </a>
+            </div>
+            <div class="col-xxl-8 col-xl-8 col-xs-16 col-lg-8 col-md-16  text-right">
+                <label class="gt-margin-top-10"><?php $date=date_create($Row->ph_reqdate); echo date_format($date,'g:ia jS F Y');?></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xxl-16 col-xl-16 col-md-16 col-lg-16 col-sm-16">
+                <h5 class="gt-text-orange">
+                    <i class="fas fa-inbox gt-margin-right-10"></i> <?php echo $lang['Photo Request Received']; ?>
+                </h5>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-xxl-16 col-xl-16 col-md-16 col-lg-16 col-sm-16">
+                <p class="gt-margin-top-0"><?php echo $Row->ph_msg; ?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xxl-16">
+                <?php echo $lang['Status']; ?> :- <b class="text-danger"><?php echo $Row->receiver_response; ?></b>
+            </div>
+        </div>
+    </div>
+    <div class="col-xxl-16 col-lg-16 col-xs-16 col-sm-16 col-md-16">
+        <div class="row">
+            <div class="col-xxl-2 col-xl-3 col-xs-16 col-md-6 col-lg-3 text-center gt-margin-top-10">
+                <a href="composeMessages?user_id=<?php echo $Row->matri_id; ?>" class="btn gt-text-green">
+                    <i class="fas fa-envelope gt-margin-right-10"></i> <?php echo $lang['Send Message']; ?>
+                </a>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-xs-8 col-sm-8 col-md-5 col-lg-3 pull-right gt-margin-top-10">
+                <a class="btn btn-danger gt-cursor" onClick="deletereq('<?php echo $Row->ph_reqid; ?>','receiver');">
+                    <i class="fas fa-ban gt-margin-right-10"></i><?php echo $lang['Decline']; ?>
+                </a>
+            </div>
+            <div class="col-xxl-2 col-xl-3 col-xs-8 col-sm-8 col-md-5 col-lg-3 pull-right gt-margin-top-10">
+                <a class="btn gt-btn-green gt-cursor" data-toggle="modal" data-target="#myModal2" onclick="getPhotoReq('<?php echo $Row->ph_reqid; ?>')">
+                    <i class="fas fa-check gt-margin-right-10"></i><?php echo $lang['Accept']; ?>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
